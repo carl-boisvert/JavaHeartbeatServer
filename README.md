@@ -13,6 +13,10 @@ On MAC, run the command
 ```
 brew install mongodb
 ```
+In case mongodb isn't started, you can run
+```
+brew services start mongodb
+```
 
 The server will use localhost by default, so there's nothing more to do then compile the code and run it.
 
